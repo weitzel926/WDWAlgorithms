@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "30CECBCA-3F60-4864-8FF7-D2D57755D58B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:WDWAlgorithms.xcodeproj",
+      "identifier" : "5E0FCA1C2B7C3C1E0098D443",
+      "name" : "WDWAlgorithms"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:WDWAlgorithms.xcodeproj",
+        "identifier" : "5E0FCA322B7C3C1F0098D443",
+        "name" : "WDWAlgorithmsTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:WDWAlgorithms.xcodeproj",
+        "identifier" : "5E0FCA3C2B7C3C1F0098D443",
+        "name" : "WDWAlgorithmsUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
