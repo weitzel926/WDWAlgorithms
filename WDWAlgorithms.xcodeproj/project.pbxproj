@@ -36,6 +36,8 @@
 		5E827E5F2B8BF535005CE1B6 /* CanPlaceFlowersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E5E2B8BF535005CE1B6 /* CanPlaceFlowersTests.swift */; };
 		5E827E612B8BFA85005CE1B6 /* ReverseVowels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E602B8BFA85005CE1B6 /* ReverseVowels.swift */; };
 		5E827E632B8BFA95005CE1B6 /* ReverseVowelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E622B8BFA95005CE1B6 /* ReverseVowelsTests.swift */; };
+		5E827E652B8CECEE005CE1B6 /* ReverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E642B8CECEE005CE1B6 /* ReverseWords.swift */; };
+		5E827E672B8CED05005CE1B6 /* ReverseWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E662B8CED05005CE1B6 /* ReverseWordsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		5E827E5E2B8BF535005CE1B6 /* CanPlaceFlowersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPlaceFlowersTests.swift; sourceTree = "<group>"; };
 		5E827E602B8BFA85005CE1B6 /* ReverseVowels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseVowels.swift; sourceTree = "<group>"; };
 		5E827E622B8BFA95005CE1B6 /* ReverseVowelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseVowelsTests.swift; sourceTree = "<group>"; };
+		5E827E642B8CECEE005CE1B6 /* ReverseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWords.swift; sourceTree = "<group>"; };
+		5E827E662B8CED05005CE1B6 /* ReverseWordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +204,7 @@
 				5E827E552B8BEDCB005CE1B6 /* KidsWithGreatestNumberOfCandies.swift */,
 				5E827E5C2B8BF51E005CE1B6 /* CanPlaceFlowers.swift */,
 				5E827E602B8BFA85005CE1B6 /* ReverseVowels.swift */,
+				5E827E642B8CECEE005CE1B6 /* ReverseWords.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 				5E827E572B8BEDDA005CE1B6 /* KidsWithGreatestNumberOfCandiesTests.swift */,
 				5E827E5E2B8BF535005CE1B6 /* CanPlaceFlowersTests.swift */,
 				5E827E622B8BFA95005CE1B6 /* ReverseVowelsTests.swift */,
+				5E827E662B8CED05005CE1B6 /* ReverseWordsTests.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -360,6 +366,7 @@
 				5E827E5D2B8BF51E005CE1B6 /* CanPlaceFlowers.swift in Sources */,
 				5E0FCA212B7C3C1E0098D443 /* AppDelegate.swift in Sources */,
 				5E0FCAAD2B7ED4580098D443 /* Anagrams.swift in Sources */,
+				5E827E652B8CECEE005CE1B6 /* ReverseWords.swift in Sources */,
 				5E0FCA532B7C3C440098D443 /* ReverseInt.swift in Sources */,
 				5E0FCA232B7C3C1E0098D443 /* SceneDelegate.swift in Sources */,
 				5E6B4FCD2B86C0140010E877 /* GreastestCommonDivisorOfStrings.swift in Sources */,
@@ -376,6 +383,7 @@
 				5E0FCA552B7C3C9C0098D443 /* ReverseIntTests.swift in Sources */,
 				5E0FCA382B7C3C1F0098D443 /* WDWAlgorithmsTests.swift in Sources */,
 				5E827E632B8BFA95005CE1B6 /* ReverseVowelsTests.swift in Sources */,
+				5E827E672B8CED05005CE1B6 /* ReverseWordsTests.swift in Sources */,
 				5E827E5F2B8BF535005CE1B6 /* CanPlaceFlowersTests.swift in Sources */,
 				5E6B4FCB2B86B9180010E877 /* MergeStringsTests.swift in Sources */,
 				5E0FCAA12B7D7F790098D443 /* MaxCharTests.swift in Sources */,
