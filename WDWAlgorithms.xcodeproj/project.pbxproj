@@ -44,6 +44,8 @@
 		5E827E6F2B8D16E0005CE1B6 /* IncreasingTripletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E6E2B8D16E0005CE1B6 /* IncreasingTripletTests.swift */; };
 		5E827E712B8D1ED0005CE1B6 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E702B8D1ED0005CE1B6 /* StringCompression.swift */; };
 		5E827E732B8D1F00005CE1B6 /* StringCompressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E722B8D1F00005CE1B6 /* StringCompressionTests.swift */; };
+		5E827E772B8E4EDB005CE1B6 /* MoveZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E762B8E4EDB005CE1B6 /* MoveZeroes.swift */; };
+		5E827E792B8E4EEF005CE1B6 /* MoveZerosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E782B8E4EEF005CE1B6 /* MoveZerosTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,8 @@
 		5E827E6E2B8D16E0005CE1B6 /* IncreasingTripletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreasingTripletTests.swift; sourceTree = "<group>"; };
 		5E827E702B8D1ED0005CE1B6 /* StringCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCompression.swift; sourceTree = "<group>"; };
 		5E827E722B8D1F00005CE1B6 /* StringCompressionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCompressionTests.swift; sourceTree = "<group>"; };
+		5E827E762B8E4EDB005CE1B6 /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
+		5E827E782B8E4EEF005CE1B6 /* MoveZerosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZerosTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +194,7 @@
 		5E0FCA502B7C3C290098D443 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5E827E742B8E4E78005CE1B6 /* Two Pointers */,
 				5E827E5A2B8BF416005CE1B6 /* Arrays */,
 			);
 			path = Algorithms;
@@ -198,6 +203,7 @@
 		5E0FCA512B7C3C310098D443 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5E827E752B8E4E88005CE1B6 /* Two Pointers */,
 				5E827E5B2B8BF427005CE1B6 /* Arrays */,
 			);
 			path = Algorithms;
@@ -243,6 +249,22 @@
 				5E827E722B8D1F00005CE1B6 /* StringCompressionTests.swift */,
 			);
 			path = Arrays;
+			sourceTree = "<group>";
+		};
+		5E827E742B8E4E78005CE1B6 /* Two Pointers */ = {
+			isa = PBXGroup;
+			children = (
+				5E827E762B8E4EDB005CE1B6 /* MoveZeroes.swift */,
+			);
+			path = "Two Pointers";
+			sourceTree = "<group>";
+		};
+		5E827E752B8E4E88005CE1B6 /* Two Pointers */ = {
+			isa = PBXGroup;
+			children = (
+				5E827E782B8E4EEF005CE1B6 /* MoveZerosTests.swift */,
+			);
+			path = "Two Pointers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +404,7 @@
 				5E827E692B8D0186005CE1B6 /* ProductOfArrayExceptSelf.swift in Sources */,
 				5E6B4FC92B86B8E30010E877 /* MergeStrings.swift in Sources */,
 				5E0FCA252B7C3C1E0098D443 /* ViewController.swift in Sources */,
+				5E827E772B8E4EDB005CE1B6 /* MoveZeroes.swift in Sources */,
 				5E827E5D2B8BF51E005CE1B6 /* CanPlaceFlowers.swift in Sources */,
 				5E0FCA212B7C3C1E0098D443 /* AppDelegate.swift in Sources */,
 				5E0FCAAD2B7ED4580098D443 /* Anagrams.swift in Sources */,
@@ -412,6 +435,7 @@
 				5E827E732B8D1F00005CE1B6 /* StringCompressionTests.swift in Sources */,
 				5E827E6F2B8D16E0005CE1B6 /* IncreasingTripletTests.swift in Sources */,
 				5E0FCAA52B7D8B5C0098D443 /* ChunkTests.swift in Sources */,
+				5E827E792B8E4EEF005CE1B6 /* MoveZerosTests.swift in Sources */,
 				5E0FCAB32B7ED8500098D443 /* CapitalizeTests.swift in Sources */,
 				5E6B4FCF2B86C02B0010E877 /* GreatestCommonDivisorOfStringsTests.swift in Sources */,
 				5E827E582B8BEDDA005CE1B6 /* KidsWithGreatestNumberOfCandiesTests.swift in Sources */,
