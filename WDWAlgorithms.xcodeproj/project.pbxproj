@@ -54,6 +54,8 @@
 		5E827E8B2B8E6A0D005CE1B6 /* DifferenceOfTwoArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E8A2B8E6A0D005CE1B6 /* DifferenceOfTwoArraysTests.swift */; };
 		5E827E8F2B8E7087005CE1B6 /* RemoveStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E8E2B8E7087005CE1B6 /* RemoveStars.swift */; };
 		5E827E912B8E709C005CE1B6 /* RemoveStarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E902B8E709C005CE1B6 /* RemoveStarsTests.swift */; };
+		5E827E952B8E7529005CE1B6 /* NumberOfRecentCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E942B8E7529005CE1B6 /* NumberOfRecentCalls.swift */; };
+		5E827E972B8E7538005CE1B6 /* NumberOfRecentCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E962B8E7538005CE1B6 /* NumberOfRecentCallsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +128,8 @@
 		5E827E8A2B8E6A0D005CE1B6 /* DifferenceOfTwoArraysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferenceOfTwoArraysTests.swift; sourceTree = "<group>"; };
 		5E827E8E2B8E7087005CE1B6 /* RemoveStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveStars.swift; sourceTree = "<group>"; };
 		5E827E902B8E709C005CE1B6 /* RemoveStarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveStarsTests.swift; sourceTree = "<group>"; };
+		5E827E942B8E7529005CE1B6 /* NumberOfRecentCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfRecentCalls.swift; sourceTree = "<group>"; };
+		5E827E962B8E7538005CE1B6 /* NumberOfRecentCallsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfRecentCallsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +214,7 @@
 		5E0FCA502B7C3C290098D443 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5E827E922B8E750F005CE1B6 /* Queue */,
 				5E827E8C2B8E7046005CE1B6 /* Stack */,
 				5E827E862B8E69AF005CE1B6 /* Hash Map */,
 				5E827E802B8E6633005CE1B6 /* Prefix Sum */,
@@ -223,6 +228,7 @@
 		5E0FCA512B7C3C310098D443 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5E827E932B8E7514005CE1B6 /* Queue */,
 				5E827E8D2B8E7058005CE1B6 /* Stack */,
 				5E827E872B8E69B9005CE1B6 /* Hash Map */,
 				5E827E812B8E663B005CE1B6 /* Prefix Sum */,
@@ -353,6 +359,22 @@
 				5E827E902B8E709C005CE1B6 /* RemoveStarsTests.swift */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		5E827E922B8E750F005CE1B6 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				5E827E942B8E7529005CE1B6 /* NumberOfRecentCalls.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		5E827E932B8E7514005CE1B6 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				5E827E962B8E7538005CE1B6 /* NumberOfRecentCallsTests.swift */,
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,6 +512,7 @@
 				5E827E562B8BEDCB005CE1B6 /* KidsWithGreatestNumberOfCandies.swift in Sources */,
 				5E0FCAB42B7ED8E40098D443 /* Capitalize.swift in Sources */,
 				5E827E8F2B8E7087005CE1B6 /* RemoveStars.swift in Sources */,
+				5E827E952B8E7529005CE1B6 /* NumberOfRecentCalls.swift in Sources */,
 				5E827E692B8D0186005CE1B6 /* ProductOfArrayExceptSelf.swift in Sources */,
 				5E827E832B8E6650005CE1B6 /* HighestAltitude.swift in Sources */,
 				5E6B4FC92B86B8E30010E877 /* MergeStrings.swift in Sources */,
@@ -520,6 +543,7 @@
 				5E0FCA552B7C3C9C0098D443 /* ReverseIntTests.swift in Sources */,
 				5E0FCA382B7C3C1F0098D443 /* WDWAlgorithmsTests.swift in Sources */,
 				5E827E7F2B8E5DE8005CE1B6 /* MaxAverageSubArrayTests.swift in Sources */,
+				5E827E972B8E7538005CE1B6 /* NumberOfRecentCallsTests.swift in Sources */,
 				5E827E632B8BFA95005CE1B6 /* ReverseVowelsTests.swift in Sources */,
 				5E827E672B8CED05005CE1B6 /* ReverseWordsTests.swift in Sources */,
 				5E827E5F2B8BF535005CE1B6 /* CanPlaceFlowersTests.swift in Sources */,
