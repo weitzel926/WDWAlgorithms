@@ -52,6 +52,8 @@
 		5E827E852B8E665F005CE1B6 /* HighestAltitudeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E842B8E665F005CE1B6 /* HighestAltitudeTests.swift */; };
 		5E827E892B8E69FC005CE1B6 /* DifferenceOfTwoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E882B8E69FC005CE1B6 /* DifferenceOfTwoArrays.swift */; };
 		5E827E8B2B8E6A0D005CE1B6 /* DifferenceOfTwoArraysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E8A2B8E6A0D005CE1B6 /* DifferenceOfTwoArraysTests.swift */; };
+		5E827E8F2B8E7087005CE1B6 /* RemoveStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E8E2B8E7087005CE1B6 /* RemoveStars.swift */; };
+		5E827E912B8E709C005CE1B6 /* RemoveStarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E902B8E709C005CE1B6 /* RemoveStarsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +124,8 @@
 		5E827E842B8E665F005CE1B6 /* HighestAltitudeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestAltitudeTests.swift; sourceTree = "<group>"; };
 		5E827E882B8E69FC005CE1B6 /* DifferenceOfTwoArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferenceOfTwoArrays.swift; sourceTree = "<group>"; };
 		5E827E8A2B8E6A0D005CE1B6 /* DifferenceOfTwoArraysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferenceOfTwoArraysTests.swift; sourceTree = "<group>"; };
+		5E827E8E2B8E7087005CE1B6 /* RemoveStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveStars.swift; sourceTree = "<group>"; };
+		5E827E902B8E709C005CE1B6 /* RemoveStarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveStarsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +210,7 @@
 		5E0FCA502B7C3C290098D443 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5E827E8C2B8E7046005CE1B6 /* Stack */,
 				5E827E862B8E69AF005CE1B6 /* Hash Map */,
 				5E827E802B8E6633005CE1B6 /* Prefix Sum */,
 				5E827E7A2B8E5DB2005CE1B6 /* Sliding Window */,
@@ -218,6 +223,7 @@
 		5E0FCA512B7C3C310098D443 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5E827E8D2B8E7058005CE1B6 /* Stack */,
 				5E827E872B8E69B9005CE1B6 /* Hash Map */,
 				5E827E812B8E663B005CE1B6 /* Prefix Sum */,
 				5E827E7B2B8E5DB9005CE1B6 /* Sliding Window */,
@@ -331,6 +337,22 @@
 				5E827E8A2B8E6A0D005CE1B6 /* DifferenceOfTwoArraysTests.swift */,
 			);
 			path = "Hash Map";
+			sourceTree = "<group>";
+		};
+		5E827E8C2B8E7046005CE1B6 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				5E827E8E2B8E7087005CE1B6 /* RemoveStars.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		5E827E8D2B8E7058005CE1B6 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				5E827E902B8E709C005CE1B6 /* RemoveStarsTests.swift */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -467,6 +489,7 @@
 				5E0FCA9F2B7D7F670098D443 /* MaxChar.swift in Sources */,
 				5E827E562B8BEDCB005CE1B6 /* KidsWithGreatestNumberOfCandies.swift in Sources */,
 				5E0FCAB42B7ED8E40098D443 /* Capitalize.swift in Sources */,
+				5E827E8F2B8E7087005CE1B6 /* RemoveStars.swift in Sources */,
 				5E827E692B8D0186005CE1B6 /* ProductOfArrayExceptSelf.swift in Sources */,
 				5E827E832B8E6650005CE1B6 /* HighestAltitude.swift in Sources */,
 				5E6B4FC92B86B8E30010E877 /* MergeStrings.swift in Sources */,
@@ -507,6 +530,7 @@
 				5E827E6F2B8D16E0005CE1B6 /* IncreasingTripletTests.swift in Sources */,
 				5E0FCAA52B7D8B5C0098D443 /* ChunkTests.swift in Sources */,
 				5E827E792B8E4EEF005CE1B6 /* MoveZerosTests.swift in Sources */,
+				5E827E912B8E709C005CE1B6 /* RemoveStarsTests.swift in Sources */,
 				5E0FCAB32B7ED8500098D443 /* CapitalizeTests.swift in Sources */,
 				5E6B4FCF2B86C02B0010E877 /* GreatestCommonDivisorOfStringsTests.swift in Sources */,
 				5E827E852B8E665F005CE1B6 /* HighestAltitudeTests.swift in Sources */,
