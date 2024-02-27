@@ -42,6 +42,8 @@
 		5E827E6B2B8D0197005CE1B6 /* ProductOfArrayExceptSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E6A2B8D0197005CE1B6 /* ProductOfArrayExceptSelfTests.swift */; };
 		5E827E6D2B8D16CD005CE1B6 /* IncreasingTriplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E6C2B8D16CD005CE1B6 /* IncreasingTriplet.swift */; };
 		5E827E6F2B8D16E0005CE1B6 /* IncreasingTripletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E6E2B8D16E0005CE1B6 /* IncreasingTripletTests.swift */; };
+		5E827E712B8D1ED0005CE1B6 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E702B8D1ED0005CE1B6 /* StringCompression.swift */; };
+		5E827E732B8D1F00005CE1B6 /* StringCompressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E722B8D1F00005CE1B6 /* StringCompressionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +104,8 @@
 		5E827E6A2B8D0197005CE1B6 /* ProductOfArrayExceptSelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelfTests.swift; sourceTree = "<group>"; };
 		5E827E6C2B8D16CD005CE1B6 /* IncreasingTriplet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreasingTriplet.swift; sourceTree = "<group>"; };
 		5E827E6E2B8D16E0005CE1B6 /* IncreasingTripletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreasingTripletTests.swift; sourceTree = "<group>"; };
+		5E827E702B8D1ED0005CE1B6 /* StringCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCompression.swift; sourceTree = "<group>"; };
+		5E827E722B8D1F00005CE1B6 /* StringCompressionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCompressionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +219,7 @@
 				5E827E642B8CECEE005CE1B6 /* ReverseWords.swift */,
 				5E827E682B8D0186005CE1B6 /* ProductOfArrayExceptSelf.swift */,
 				5E827E6C2B8D16CD005CE1B6 /* IncreasingTriplet.swift */,
+				5E827E702B8D1ED0005CE1B6 /* StringCompression.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 				5E827E662B8CED05005CE1B6 /* ReverseWordsTests.swift */,
 				5E827E6A2B8D0197005CE1B6 /* ProductOfArrayExceptSelfTests.swift */,
 				5E827E6E2B8D16E0005CE1B6 /* IncreasingTripletTests.swift */,
+				5E827E722B8D1F00005CE1B6 /* StringCompressionTests.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -384,6 +390,7 @@
 				5E0FCA532B7C3C440098D443 /* ReverseInt.swift in Sources */,
 				5E0FCA232B7C3C1E0098D443 /* SceneDelegate.swift in Sources */,
 				5E6B4FCD2B86C0140010E877 /* GreastestCommonDivisorOfStrings.swift in Sources */,
+				5E827E712B8D1ED0005CE1B6 /* StringCompression.swift in Sources */,
 				5E0FCAA32B7D8B4B0098D443 /* Chunk.swift in Sources */,
 				5E827E612B8BFA85005CE1B6 /* ReverseVowels.swift in Sources */,
 			);
@@ -402,6 +409,7 @@
 				5E827E6B2B8D0197005CE1B6 /* ProductOfArrayExceptSelfTests.swift in Sources */,
 				5E6B4FCB2B86B9180010E877 /* MergeStringsTests.swift in Sources */,
 				5E0FCAA12B7D7F790098D443 /* MaxCharTests.swift in Sources */,
+				5E827E732B8D1F00005CE1B6 /* StringCompressionTests.swift in Sources */,
 				5E827E6F2B8D16E0005CE1B6 /* IncreasingTripletTests.swift in Sources */,
 				5E0FCAA52B7D8B5C0098D443 /* ChunkTests.swift in Sources */,
 				5E0FCAB32B7ED8500098D443 /* CapitalizeTests.swift in Sources */,
