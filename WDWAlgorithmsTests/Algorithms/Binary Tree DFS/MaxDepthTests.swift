@@ -9,6 +9,8 @@
 import XCTest
 
 final class MaxDepthTests: XCTestCase {
+    typealias TreeNode = MaxDepth.TreeNode
+    
     func testExample1() {
         /*
                     3
