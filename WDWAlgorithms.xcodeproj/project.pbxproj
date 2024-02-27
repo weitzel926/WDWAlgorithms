@@ -56,6 +56,8 @@
 		5E827E912B8E709C005CE1B6 /* RemoveStarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E902B8E709C005CE1B6 /* RemoveStarsTests.swift */; };
 		5E827E952B8E7529005CE1B6 /* NumberOfRecentCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E942B8E7529005CE1B6 /* NumberOfRecentCalls.swift */; };
 		5E827E972B8E7538005CE1B6 /* NumberOfRecentCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E962B8E7538005CE1B6 /* NumberOfRecentCallsTests.swift */; };
+		5E827E9D2B8E7DC3005CE1B6 /* DeleteMiddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E9C2B8E7DC3005CE1B6 /* DeleteMiddle.swift */; };
+		5E827E9F2B8E7DD1005CE1B6 /* DeleteMiddleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E9E2B8E7DD1005CE1B6 /* DeleteMiddleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +132,8 @@
 		5E827E902B8E709C005CE1B6 /* RemoveStarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveStarsTests.swift; sourceTree = "<group>"; };
 		5E827E942B8E7529005CE1B6 /* NumberOfRecentCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfRecentCalls.swift; sourceTree = "<group>"; };
 		5E827E962B8E7538005CE1B6 /* NumberOfRecentCallsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfRecentCallsTests.swift; sourceTree = "<group>"; };
+		5E827E9C2B8E7DC3005CE1B6 /* DeleteMiddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteMiddle.swift; sourceTree = "<group>"; };
+		5E827E9E2B8E7DD1005CE1B6 /* DeleteMiddleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteMiddleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,7 @@
 		5E0FCA502B7C3C290098D443 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5E827E992B8E7D67005CE1B6 /* LinkedList */,
 				5E827E922B8E750F005CE1B6 /* Queue */,
 				5E827E8C2B8E7046005CE1B6 /* Stack */,
 				5E827E862B8E69AF005CE1B6 /* Hash Map */,
@@ -228,6 +233,7 @@
 		5E0FCA512B7C3C310098D443 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5E827E982B8E7D61005CE1B6 /* Linked List */,
 				5E827E932B8E7514005CE1B6 /* Queue */,
 				5E827E8D2B8E7058005CE1B6 /* Stack */,
 				5E827E872B8E69B9005CE1B6 /* Hash Map */,
@@ -377,6 +383,22 @@
 			path = Queue;
 			sourceTree = "<group>";
 		};
+		5E827E982B8E7D61005CE1B6 /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				5E827E9E2B8E7DD1005CE1B6 /* DeleteMiddleTests.swift */,
+			);
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
+		5E827E992B8E7D67005CE1B6 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				5E827E9C2B8E7DC3005CE1B6 /* DeleteMiddle.swift */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -515,6 +537,7 @@
 				5E827E952B8E7529005CE1B6 /* NumberOfRecentCalls.swift in Sources */,
 				5E827E692B8D0186005CE1B6 /* ProductOfArrayExceptSelf.swift in Sources */,
 				5E827E832B8E6650005CE1B6 /* HighestAltitude.swift in Sources */,
+				5E827E9D2B8E7DC3005CE1B6 /* DeleteMiddle.swift in Sources */,
 				5E6B4FC92B86B8E30010E877 /* MergeStrings.swift in Sources */,
 				5E0FCA252B7C3C1E0098D443 /* ViewController.swift in Sources */,
 				5E827E772B8E4EDB005CE1B6 /* MoveZeroes.swift in Sources */,
@@ -553,6 +576,7 @@
 				5E827E732B8D1F00005CE1B6 /* StringCompressionTests.swift in Sources */,
 				5E827E6F2B8D16E0005CE1B6 /* IncreasingTripletTests.swift in Sources */,
 				5E0FCAA52B7D8B5C0098D443 /* ChunkTests.swift in Sources */,
+				5E827E9F2B8E7DD1005CE1B6 /* DeleteMiddleTests.swift in Sources */,
 				5E827E792B8E4EEF005CE1B6 /* MoveZerosTests.swift in Sources */,
 				5E827E912B8E709C005CE1B6 /* RemoveStarsTests.swift in Sources */,
 				5E0FCAB32B7ED8500098D443 /* CapitalizeTests.swift in Sources */,
