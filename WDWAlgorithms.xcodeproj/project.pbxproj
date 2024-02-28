@@ -64,6 +64,8 @@
 		5E827EAB2B8F9BAA005CE1B6 /* MaximumLevelSumOfBinaryTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EAA2B8F9BAA005CE1B6 /* MaximumLevelSumOfBinaryTreeTests.swift */; };
 		5E827EAD2B8FEAE3005CE1B6 /* RightSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EAC2B8FEAE3005CE1B6 /* RightSideView.swift */; };
 		5E827EAF2B8FEB49005CE1B6 /* RightSideViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EAE2B8FEB49005CE1B6 /* RightSideViewTests.swift */; };
+		5E827EB12B8FF3A8005CE1B6 /* MaxNumberKSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EB02B8FF3A8005CE1B6 /* MaxNumberKSumPairs.swift */; };
+		5E827EB32B8FF3B9005CE1B6 /* MaxNumberKSumPairsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EB22B8FF3B9005CE1B6 /* MaxNumberKSumPairsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +148,8 @@
 		5E827EAA2B8F9BAA005CE1B6 /* MaximumLevelSumOfBinaryTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumLevelSumOfBinaryTreeTests.swift; sourceTree = "<group>"; };
 		5E827EAC2B8FEAE3005CE1B6 /* RightSideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightSideView.swift; sourceTree = "<group>"; };
 		5E827EAE2B8FEB49005CE1B6 /* RightSideViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightSideViewTests.swift; sourceTree = "<group>"; };
+		5E827EB02B8FF3A8005CE1B6 /* MaxNumberKSumPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberKSumPairs.swift; sourceTree = "<group>"; };
+		5E827EB22B8FF3B9005CE1B6 /* MaxNumberKSumPairsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberKSumPairsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				5E827E762B8E4EDB005CE1B6 /* MoveZeroes.swift */,
+				5E827EB02B8FF3A8005CE1B6 /* MaxNumberKSumPairs.swift */,
 			);
 			path = "Two Pointers";
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 			isa = PBXGroup;
 			children = (
 				5E827E782B8E4EEF005CE1B6 /* MoveZerosTests.swift */,
+				5E827EB22B8FF3B9005CE1B6 /* MaxNumberKSumPairsTests.swift */,
 			);
 			path = "Two Pointers";
 			sourceTree = "<group>";
@@ -593,6 +599,7 @@
 				5E827E772B8E4EDB005CE1B6 /* MoveZeroes.swift in Sources */,
 				5E827E5D2B8BF51E005CE1B6 /* CanPlaceFlowers.swift in Sources */,
 				5E827EA32B8E8D05005CE1B6 /* MaxDepth.swift in Sources */,
+				5E827EB12B8FF3A8005CE1B6 /* MaxNumberKSumPairs.swift in Sources */,
 				5E0FCA212B7C3C1E0098D443 /* AppDelegate.swift in Sources */,
 				5E827E7D2B8E5DCF005CE1B6 /* MaxAverageSubArray.swift in Sources */,
 				5E0FCAAD2B7ED4580098D443 /* Anagrams.swift in Sources */,
@@ -633,6 +640,7 @@
 				5E827EA52B8E8D14005CE1B6 /* MaxDepthTests.swift in Sources */,
 				5E827E9F2B8E7DD1005CE1B6 /* DeleteMiddleTests.swift in Sources */,
 				5E827EAB2B8F9BAA005CE1B6 /* MaximumLevelSumOfBinaryTreeTests.swift in Sources */,
+				5E827EB32B8FF3B9005CE1B6 /* MaxNumberKSumPairsTests.swift in Sources */,
 				5E827E792B8E4EEF005CE1B6 /* MoveZerosTests.swift in Sources */,
 				5E827E912B8E709C005CE1B6 /* RemoveStarsTests.swift in Sources */,
 				5E0FCAB32B7ED8500098D443 /* CapitalizeTests.swift in Sources */,
