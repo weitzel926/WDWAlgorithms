@@ -66,6 +66,8 @@
 		5E827EAF2B8FEB49005CE1B6 /* RightSideViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EAE2B8FEB49005CE1B6 /* RightSideViewTests.swift */; };
 		5E827EB12B8FF3A8005CE1B6 /* MaxNumberKSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EB02B8FF3A8005CE1B6 /* MaxNumberKSumPairs.swift */; };
 		5E827EB32B8FF3B9005CE1B6 /* MaxNumberKSumPairsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EB22B8FF3B9005CE1B6 /* MaxNumberKSumPairsTests.swift */; };
+		5E827EB52B8FFA13005CE1B6 /* MaxVowelsInSubstringOfLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EB42B8FFA13005CE1B6 /* MaxVowelsInSubstringOfLength.swift */; };
+		5E827EB72B8FFA1F005CE1B6 /* MaxVowelsInSubstringOfLengthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EB62B8FFA1F005CE1B6 /* MaxVowelsInSubstringOfLengthTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +152,8 @@
 		5E827EAE2B8FEB49005CE1B6 /* RightSideViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightSideViewTests.swift; sourceTree = "<group>"; };
 		5E827EB02B8FF3A8005CE1B6 /* MaxNumberKSumPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberKSumPairs.swift; sourceTree = "<group>"; };
 		5E827EB22B8FF3B9005CE1B6 /* MaxNumberKSumPairsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxNumberKSumPairsTests.swift; sourceTree = "<group>"; };
+		5E827EB42B8FFA13005CE1B6 /* MaxVowelsInSubstringOfLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxVowelsInSubstringOfLength.swift; sourceTree = "<group>"; };
+		5E827EB62B8FFA1F005CE1B6 /* MaxVowelsInSubstringOfLengthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxVowelsInSubstringOfLengthTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +333,7 @@
 			isa = PBXGroup;
 			children = (
 				5E827E7C2B8E5DCF005CE1B6 /* MaxAverageSubArray.swift */,
+				5E827EB42B8FFA13005CE1B6 /* MaxVowelsInSubstringOfLength.swift */,
 			);
 			path = "Sliding Window";
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 			isa = PBXGroup;
 			children = (
 				5E827E7E2B8E5DE8005CE1B6 /* MaxAverageSubArrayTests.swift */,
+				5E827EB62B8FFA1F005CE1B6 /* MaxVowelsInSubstringOfLengthTests.swift */,
 			);
 			path = "Sliding Window";
 			sourceTree = "<group>";
@@ -605,6 +611,7 @@
 				5E0FCAAD2B7ED4580098D443 /* Anagrams.swift in Sources */,
 				5E827E6D2B8D16CD005CE1B6 /* IncreasingTriplet.swift in Sources */,
 				5E827E652B8CECEE005CE1B6 /* ReverseWords.swift in Sources */,
+				5E827EB52B8FFA13005CE1B6 /* MaxVowelsInSubstringOfLength.swift in Sources */,
 				5E0FCA532B7C3C440098D443 /* ReverseInt.swift in Sources */,
 				5E0FCA232B7C3C1E0098D443 /* SceneDelegate.swift in Sources */,
 				5E6B4FCD2B86C0140010E877 /* GreastestCommonDivisorOfStrings.swift in Sources */,
@@ -631,6 +638,7 @@
 				5E827E672B8CED05005CE1B6 /* ReverseWordsTests.swift in Sources */,
 				5E827E5F2B8BF535005CE1B6 /* CanPlaceFlowersTests.swift in Sources */,
 				5E827E6B2B8D0197005CE1B6 /* ProductOfArrayExceptSelfTests.swift in Sources */,
+				5E827EB72B8FFA1F005CE1B6 /* MaxVowelsInSubstringOfLengthTests.swift in Sources */,
 				5E6B4FCB2B86B9180010E877 /* MergeStringsTests.swift in Sources */,
 				5E0FCAA12B7D7F790098D443 /* MaxCharTests.swift in Sources */,
 				5E827E732B8D1F00005CE1B6 /* StringCompressionTests.swift in Sources */,
