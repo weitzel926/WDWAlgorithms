@@ -60,6 +60,8 @@
 		5E827E9F2B8E7DD1005CE1B6 /* DeleteMiddleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827E9E2B8E7DD1005CE1B6 /* DeleteMiddleTests.swift */; };
 		5E827EA32B8E8D05005CE1B6 /* MaxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EA22B8E8D05005CE1B6 /* MaxDepth.swift */; };
 		5E827EA52B8E8D14005CE1B6 /* MaxDepthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EA42B8E8D14005CE1B6 /* MaxDepthTests.swift */; };
+		5E827EA92B8F9B96005CE1B6 /* MaximumLevelSumOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EA82B8F9B96005CE1B6 /* MaximumLevelSumOfBinaryTree.swift */; };
+		5E827EAB2B8F9BAA005CE1B6 /* MaximumLevelSumOfBinaryTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827EAA2B8F9BAA005CE1B6 /* MaximumLevelSumOfBinaryTreeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +140,8 @@
 		5E827E9E2B8E7DD1005CE1B6 /* DeleteMiddleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteMiddleTests.swift; sourceTree = "<group>"; };
 		5E827EA22B8E8D05005CE1B6 /* MaxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepth.swift; sourceTree = "<group>"; };
 		5E827EA42B8E8D14005CE1B6 /* MaxDepthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepthTests.swift; sourceTree = "<group>"; };
+		5E827EA82B8F9B96005CE1B6 /* MaximumLevelSumOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumLevelSumOfBinaryTree.swift; sourceTree = "<group>"; };
+		5E827EAA2B8F9BAA005CE1B6 /* MaximumLevelSumOfBinaryTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumLevelSumOfBinaryTreeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +226,7 @@
 		5E0FCA502B7C3C290098D443 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5E827EA62B8F9B74005CE1B6 /* Binary Tree BFS */,
 				5E827EA02B8E8CB0005CE1B6 /* Binary Tree DFS */,
 				5E827E992B8E7D67005CE1B6 /* LinkedList */,
 				5E827E922B8E750F005CE1B6 /* Queue */,
@@ -238,6 +243,7 @@
 		5E0FCA512B7C3C310098D443 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				5E827EA72B8F9B7C005CE1B6 /* Binary Tree BFS */,
 				5E827EA12B8E8CBA005CE1B6 /* Binary Tree DFS */,
 				5E827E982B8E7D61005CE1B6 /* Linked List */,
 				5E827E932B8E7514005CE1B6 /* Queue */,
@@ -421,6 +427,22 @@
 			path = "Binary Tree DFS";
 			sourceTree = "<group>";
 		};
+		5E827EA62B8F9B74005CE1B6 /* Binary Tree BFS */ = {
+			isa = PBXGroup;
+			children = (
+				5E827EA82B8F9B96005CE1B6 /* MaximumLevelSumOfBinaryTree.swift */,
+			);
+			path = "Binary Tree BFS";
+			sourceTree = "<group>";
+		};
+		5E827EA72B8F9B7C005CE1B6 /* Binary Tree BFS */ = {
+			isa = PBXGroup;
+			children = (
+				5E827EAA2B8F9BAA005CE1B6 /* MaximumLevelSumOfBinaryTreeTests.swift */,
+			);
+			path = "Binary Tree BFS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -575,6 +597,7 @@
 				5E6B4FCD2B86C0140010E877 /* GreastestCommonDivisorOfStrings.swift in Sources */,
 				5E827E892B8E69FC005CE1B6 /* DifferenceOfTwoArrays.swift in Sources */,
 				5E827E712B8D1ED0005CE1B6 /* StringCompression.swift in Sources */,
+				5E827EA92B8F9B96005CE1B6 /* MaximumLevelSumOfBinaryTree.swift in Sources */,
 				5E0FCAA32B7D8B4B0098D443 /* Chunk.swift in Sources */,
 				5E827E612B8BFA85005CE1B6 /* ReverseVowels.swift in Sources */,
 			);
@@ -601,6 +624,7 @@
 				5E0FCAA52B7D8B5C0098D443 /* ChunkTests.swift in Sources */,
 				5E827EA52B8E8D14005CE1B6 /* MaxDepthTests.swift in Sources */,
 				5E827E9F2B8E7DD1005CE1B6 /* DeleteMiddleTests.swift in Sources */,
+				5E827EAB2B8F9BAA005CE1B6 /* MaximumLevelSumOfBinaryTreeTests.swift in Sources */,
 				5E827E792B8E4EEF005CE1B6 /* MoveZerosTests.swift in Sources */,
 				5E827E912B8E709C005CE1B6 /* RemoveStarsTests.swift in Sources */,
 				5E0FCAB32B7ED8500098D443 /* CapitalizeTests.swift in Sources */,
