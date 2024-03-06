@@ -11,32 +11,32 @@ class ValidParens {
     static func isValid(_ s: String) -> Bool {
         let array = Array(s)
         
-        var queue: [Character] = []
+        var stack: [Character] = []
         
         for char in array {
             if char == "(" || char == "[" || char == "{" {
-                queue.append(char)
+                stack.append(char)
             }
             
             if char == ")" {
-                if queue.isEmpty || queue.removeLast() != "(" {
+                if stack.isEmpty || stack.removeLast() != "(" {
                     return false
                 }
             }
             
             if char == "}" {
-                if queue.isEmpty || queue.removeLast() != "{" {
+                if stack.isEmpty || stack.removeLast() != "{" {
                     return false
                 }
             }
             
             if char == "]" {
-                if queue.isEmpty || queue.removeLast() != "[" {
+                if stack.isEmpty || stack.removeLast() != "[" {
                     return false
                 }
             }
         }
         
-        return queue.isEmpty
+        return stack.isEmpty
     }
 }
